@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+form {
+  background: linear-gradient(rgb(255, 166, 0), rgb(255, 0, 0));
+  display: inline-block;
+  padding: 15px;
+  border-radius: 100px 10px 100px 100px;
+  box-shadow: 20px 20px 20px;
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+}
+
+form div {
+  margin: 15px;
+}
+
+button{
+  margin: 3px;
+}
+
+input{
+  width: 50%;
+}
+
+nav{
+  background-color: gold;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.details{
+  border: 2px solid gray;
+  display: inline-block;
+}
+
+body{
+  background: linear-gradient(to right,white,rgb(102, 102, 243));
+}
