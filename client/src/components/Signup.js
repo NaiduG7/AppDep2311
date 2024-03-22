@@ -37,7 +37,7 @@ function Signup() {
       headers: myHeader,
     };
 
-    let JSONData = await fetch("http://localhost:2673/signup", reqOptions);
+    let JSONData = await fetch("/signup", reqOptions);
 
     let JSOData = await JSONData.json();
     // JSONData.json() is converts JSON to JavaScript
@@ -63,7 +63,7 @@ function Signup() {
       body: dataToSend,
       headers: myHeader,
     };
-    let JSONData = await fetch("http://localhost:2673/signup", reqOptions);
+    let JSONData = await fetch("/signup", reqOptions);
     let JSOData = await JSONData.json();
     console.log(JSOData);
   };
@@ -90,7 +90,7 @@ for(let i=0 ; i<profilePicInputRef.current.files.length;i++){
       method: "POST",
       body: dataToSend,
     };
-    let JSONData = await fetch("http://localhost:2673/signup", reqOptions);
+    let JSONData = await fetch("/signup", reqOptions);
     let JSOData = await JSONData.json();
     console.log(JSOData);
   };

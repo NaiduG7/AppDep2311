@@ -13,7 +13,7 @@ function Home() {
       <h1>Home</h1>
       <div className="details">
       <h2>{`${storeObject.userDetails.firstName} ${storeObject.userDetails.lastName}`}</h2>
-      <img style={{width:"300px"}}  src={`http://localhost:2673/${storeObject.userDetails.profilePic}`}></img>
+      <img style={{width:"300px"}}  src={`/${storeObject.userDetails.profilePic}`}></img>
       <h2>Age:{`${storeObject.userDetails.age}`}</h2>
       <h2>MobileNo: {`${storeObject.userDetails.mobileNo}`}</h2>
       </div>
